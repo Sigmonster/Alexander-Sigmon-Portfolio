@@ -1,0 +1,79 @@
+/*Styles to assist with debugging*/
+body {
+	background-color: LightGray;
+}
+div, ul, li, p, h1, h2, h3, h4, h5 {
+	border: 1px solid Chocolate;
+}
+
+/*Global Best Practices*/
+html {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+/*applies to multiple sections*/
+.content {
+	
+}
+/*Applies to all but left-hand nav section*/
+.introduction, .overview, .portfolio, .footer {
+	margin-left: 10rem;
+	text-align: center;
+}
+
+/*Navigation Section*/
+.navigation-header {
+	display:block;
+	left:0;
+	position:fixed;
+	width:10rem;
+	height:100%;
+	background-color: white;
+}
+.navigation-header .content {
+
+}
+.navigation-header .content .navlinks > li {
+	list-style:none;
+}
+
+/*Introduction Section*/
+.introduction {
+	background-image:url(../img/using-iphone-6-on-business-meeting-picjumbo-com.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:45rem;
+	margin-left: 10rem;
+
+}
+.introduction .content {
+	width: 100%
+
+}
+.introduction h1 {
+
+}
+.introcution h3 {
+
+}
+/*Overview Section*/
+.overview {
+
+}
+.overview .content {
+
+}
+.overview p {
+
+}
+/*Portfolio Section*/
+.portfolio {
+
+}
+.portfolio .content {
+
+}
