@@ -20,11 +20,13 @@ html {
 	font-size:1.5rem;
 	padding-left:6rem;
 	padding-right:6rem;
+	font-family: 'Fauna One', serif;
 }
 /*Applies to all but left-hand nav section*/
 .introduction, .overview, .portfolio, .footer {
-	margin-left: 12rem;
+	margin-left: 15rem;
 	text-align: center;
+	font-family: 'Fauna One', serif;
 }
 ul {
 	padding-left:0;
@@ -34,30 +36,42 @@ ul {
 	display:block;
 	left:0;
 	position:fixed;
-	width:12rem;
+	width:15rem;
 	height:100%;
 	background-color: #EDF1F2;
 	color:#3F3F3F;
 }
 .navigation-header .icon {
-	margin:2rem;
+	margin:3rem;
+	margin-left: auto;
+	margin-right: auto;
 	height:5rem;
 	width:5rem;
 	color:#BF3A3D;
 	text-align: center;
 	border:2px #A6604C solid;
+	font-family: 'Playfair Display SC', serif;
+	text-transform: uppercase;
 }
 .navigation-header .icon h1 {
 	margin:0;
+	margin-top: -5px;
+	font-size: 32.5px;
 }
 .navigation-header .icon h3 {
 	margin:0;
+	font-size:17.5px;
 }
 .navigation-header .navigation-conent {
 
 }
 .navigation-header .navigation-conent .navlinks > li {
 	list-style:none;
+	font-family: 'Playfair Display SC', serif;
+	text-transform: uppercase;
+	margin-left: 1rem;
+	padding-top: 1rem;
+	font-size: 1.5rem;
 }
 
 
