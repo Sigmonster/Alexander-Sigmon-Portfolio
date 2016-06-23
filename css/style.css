@@ -21,6 +21,7 @@ html {
 	padding-left:6rem;
 	padding-right:6rem;
 	font-family: 'Fauna One', serif;
+	width:100%;
 }
 /*Applies to all but left-hand nav section*/
 .introduction, .overview, .portfolio, .footer {
@@ -30,6 +31,9 @@ html {
 }
 ul {
 	padding-left:0;
+}
+h1, h3 {
+		font-family: 'Playfair Display SC', serif;
 }
 /*Navigation Section*/
 .navigation-header {
@@ -85,14 +89,26 @@ ul {
 
 }
 .introduction .content {
-	width: 100%
-
+	padding-top:12.5rem;
+	color:#EDF1F2;
+	font-weight: bold;
 }
 .introduction h1 {
 
+text-shadow:
+	-1px -1px 0 black,  
+	1px -1px 0 black,
+	-1px 1px 0 black,
+	1px 1px 0 black;
 }
-.introcution h3 {
-
+.introduction h3 {
+	margin-top: 8rem;
+font-weight: 700;
+	text-shadow:
+	-1px -1px 0 black,  
+	1px -1px 0 black,
+	-1px 1px 0 black,
+	1px 1px 0 black;
 }
 /*Overview Section*/
 .overview {
