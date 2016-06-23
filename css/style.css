@@ -3,7 +3,7 @@ body {
 	background-color: LightGray;
 }
 div, ul, li, p, h1, h2, h3, h4, h5 {
-	border: 1px solid Chocolate;
+	/*border: 1px solid Chocolate;*/
 }
 
 /*Global Best Practices*/
@@ -44,6 +44,7 @@ h1, h3 {
 	height:100%;
 	background-color: #EDF1F2;
 	color:#3F3F3F;
+	border-right:#808A89 1px solid;
 }
 .navigation-header .icon {
 	margin:3rem;
@@ -59,7 +60,7 @@ h1, h3 {
 }
 .navigation-header .icon h1 {
 	margin:0;
-	margin-top: -5px;
+
 	font-size: 32.5px;
 }
 .navigation-header .icon h3 {
@@ -77,7 +78,14 @@ h1, h3 {
 	padding-top: 1rem;
 	font-size: 1.5rem;
 }
-
+.navigation-header a {
+	color:#3F3F3F;
+	text-decoration: none;
+	font-weight: lighter;
+}
+.navigation-header a:hover {
+	color:blue;
+}
 
 /*Introduction Section*/
 .introduction {
@@ -101,7 +109,6 @@ h1, h3 {
 }
 .introduction h3 {
 	margin-top: 8rem;
-	font-weight: 700;
 	text-shadow:
 		-1px -1px 0 black,  
 		1px -1px 0 black,
@@ -112,7 +119,7 @@ h1, h3 {
 .overview {
 	display:table;
 	height:60rem;
-	background:#808A89;
+	background:#EDF1F2;
 }
 .overview .content {
 	margin-top: 5rem;
