@@ -29,7 +29,7 @@ html {
 	margin-left: 15rem;
 	text-align: center;
 	font-family: 'Fauna One', serif;
-	height:60rem;
+	height:100%;
 	background:#EDF1F2;
 
 }
@@ -177,9 +177,63 @@ h1, h3 {
 }
 /*footer section*/
 .footer {
-	padding-top:20rem;
+	padding-top:10rem;
 }
 .footer p {
 	padding: 3rem 10rem 3rem 10rem;
 	font-size: .5em;
+}
+
+/*Responsive Design*/
+@media screen and (max-width: 600px) {
+	.navigation-header {
+	display:block;
+
+	position:fixed;
+	width:15rem;
+	height:100%;
+	background-color: #EDF1F2;
+	color:#3F3F3F;
+	border-right:#808A89 1px solid;
+}
+.navigation-header .icon {
+	margin:3rem;
+	margin-left: auto;
+	margin-right: auto;
+	height:5rem;
+	width:5rem;
+	color:#BF3A3D;
+	text-align: center;
+	border:2px #A6604C solid;
+	font-family: 'Playfair Display SC', serif;
+	text-transform: uppercase;
+}
+.navigation-header .icon h1 {
+	margin:0;
+
+	font-size: 32.5px;
+}
+.navigation-header .icon h3 {
+	margin:0;
+	font-size:17.5px;
+}
+.navigation-header .navigation-conent {
+
+}
+.navigation-header .navigation-conent .navlinks > li {
+	list-style:none;
+	font-family: 'Playfair Display SC', serif;
+	text-transform: uppercase;
+	margin-left: 1rem;
+	padding-top: 1rem;
+	font-size: 1.5rem;
+}
+.navigation-header a {
+	color:#3F3F3F;
+	text-decoration: none;
+	font-weight: lighter;
+}
+.navigation-header a:hover {
+	color:blue;
+}
 }
