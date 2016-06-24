@@ -16,21 +16,30 @@ html {
 	box-sizing: inherit;
 }
 /*applies to multiple sections*/
-.content {
+.overview .content, .portfolio .content, .footer .content {
 	font-size:1.5rem;
 	padding-left:6rem;
 	padding-right:6rem;
-	font-family: 'Fauna One', serif;
 	width:100%;
+	padding-top: 5rem;
+
 }
-/*Applies to all but left-hand nav section*/
-.introduction, .overview, .portfolio, .footer {
+/*Applies to all but left-hand nav & intro section*/
+.overview, .portfolio, .footer {
 	margin-left: 15rem;
 	text-align: center;
 	font-family: 'Fauna One', serif;
+	height:60rem;
+	background:#EDF1F2;
+
 }
 ul {
 	padding-left:0;
+
+}
+li {
+	border-top:1px #EDF1F2 solid;
+
 }
 h1, h3 {
 		font-family: 'Playfair Display SC', serif;
@@ -93,7 +102,8 @@ h1, h3 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height:60rem;
-	margin-left: 10rem;
+	margin-left: 15rem;
+	text-align: center;
 }
 .introduction .content {
 	padding-top:12.5rem;
@@ -116,37 +126,60 @@ h1, h3 {
 		1px 1px 0 black;
 }
 /*Overview Section*/
-.overview {
-	display:table;
-	height:60rem;
-	background:#EDF1F2;
-}
-.overview .content {
-	margin-top: 5rem;
-}
 .overview h1 {
-	display: table;
 	color: #EDF1F2;
 	background: #3F3F3F;
 	border-radius: 1.5rem;
 	padding: 3rem 5rem 3.5rem 5rem;
 	margin: 0 auto 0 auto;
+	display: table;
 }
 .overview p {
 	margin-top: 5rem;
 	text-align:justify;
-	background: #EDF1F2;
-	border-radius: 1.5rem;
 	padding: 3rem;
 }
 /*Portfolio Section*/
 .portfolio {
-
+	height:100%
 }
-.portfolio .content {
-
+.portfolio .projectintro {
+	background:#EDF1F2;
+}
+.portfolio h1{
+	color: #EDF1F2;
+	background: #3F3F3F;
+	border-radius: 1.5rem;
+	padding: 3rem 5rem 3.5rem 5rem;
+	margin: 0 auto 0 auto;
+	display: table;
+}
+.portfolio h3 {
+	color: #EDF1F2;
+	background: #3F3F3F;
+	border-radius: 1.5rem;
+	padding: 1.5rem 2.5rem 1.75rem 2.5rem;
+	margin: 5rem auto 0 auto;
+	display: table;
+}
+.portfolio p {
+	margin-top: 5rem;
+	text-align:justify;
+	padding: 3rem;
 }
 .portfolio .content li{
+	height:60rem;
+	background:#EDF1F2;
 	list-style:none;
 	padding-left:0;
+	border-bottom: 1px solid black;
+	padding-bottom: 3rem;
+}
+/*footer section*/
+.footer {
+	padding-top:20rem;
+}
+.footer p {
+	padding: 3rem 10rem 3rem 10rem;
+	font-size: .5em;
 }
