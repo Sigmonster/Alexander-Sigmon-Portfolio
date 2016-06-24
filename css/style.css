@@ -3,7 +3,7 @@ body {
 	background-color: LightGray;
 }
 div, ul, li, p, h1, h2, h3, h4, h5 {
-	/*border: 1px solid Chocolate;*/
+	border: 1px solid Chocolate;
 }
 
 /*Global Best Practices*/
@@ -47,7 +47,6 @@ h1, h3 {
 /*Navigation Section*/
 .navigation-header {
 	display:block;
-	left:0;
 	position:fixed;
 	width:15rem;
 	height:100%;
@@ -185,49 +184,65 @@ h1, h3 {
 }
 
 /*Responsive Design*/
-@media screen and (max-width: 600px) {
-	.navigation-header {
+@media screen and (max-width: 650px) {
+.navigation-header {
 	display:block;
-
 	position:fixed;
-	width:15rem;
-	height:100%;
+width:100%;
+height:13rem;
 	background-color: #EDF1F2;
 	color:#3F3F3F;
-	border-right:#808A89 1px solid;
+	border-bottom:#808A89 4px solid;
 }
 .navigation-header .icon {
-	margin:3rem;
-	margin-left: auto;
-	margin-right: auto;
-	height:5rem;
-	width:5rem;
+margin: 1rem;
+margin-top:3rem;
+height:5rem;
+width:5rem;
 	color:#BF3A3D;
 	text-align: center;
-	border:2px #A6604C solid;
+border:2px #A6604C solid;
 	font-family: 'Playfair Display SC', serif;
 	text-transform: uppercase;
+position:fixed;
 }
 .navigation-header .icon h1 {
 	margin:0;
-
-	font-size: 32.5px;
+font-size: 32.5px;
 }
 .navigation-header .icon h3 {
 	margin:0;
-	font-size:17.5px;
+font-size:17.5px;
 }
 .navigation-header .navigation-conent {
 
 }
+.navigation-header ul {
+margin-left:6.5rem;
+text-align:justify-all;
+float:right;
+margin-top:0;
+}
 .navigation-header .navigation-conent .navlinks > li {
+display:inline-block;
+text-align: center;
 	list-style:none;
 	font-family: 'Playfair Display SC', serif;
 	text-transform: uppercase;
-	margin-left: 1rem;
-	padding-top: 1rem;
-	font-size: 1.5rem;
+letter-spacing: 0;
+font-weight: bolder;
+width:11rem;
+height:5rem;
+margin-left: 1.25rem;
+margin-top: 1rem;
+padding:1.5rem 1rem 0rem 1rem;
+font-size: 18.6px;
+background-color: orange;
+border:black 2px solid;
+border-radius: 10px;
+vertical-align: middle;
 }
+
 .navigation-header a {
 	color:#3F3F3F;
 	text-decoration: none;
