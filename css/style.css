@@ -184,21 +184,24 @@ h1, h3 {
 }
 
 /*Responsive Design*/
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 601px) {
+/*Navigation Section*/
 .navigation-header {
 	display:block;
 	position:fixed;
 width:100%;
-height:13rem;
+max-width: 601px;
+min-width: 320px;
+height:initial;
 	background-color: #EDF1F2;
 	color:#3F3F3F;
 	border-bottom:#808A89 4px solid;
 }
 .navigation-header .icon {
-margin: 1rem;
-margin-top:3rem;
-height:5rem;
-width:5rem;
+margin-left: 1%;
+margin-top:3%;
+height:2.5rem;
+width:2.5rem;
 	color:#BF3A3D;
 	text-align: center;
 border:2px #A6604C solid;
@@ -208,20 +211,21 @@ position:fixed;
 }
 .navigation-header .icon h1 {
 	margin:0;
-font-size: 32.5px;
+font-size: 16.25px;
 }
 .navigation-header .icon h3 {
 	margin:0;
-font-size:17.5px;
+font-size:8.5px;
 }
 .navigation-header .navigation-conent {
 
 }
 .navigation-header ul {
-margin-left:6.5rem;
-text-align:justify-all;
-float:right;
+margin-left: 3rem;
+text-align:left;
+float:none;
 margin-top:0;
+width:initial;
 }
 .navigation-header .navigation-conent .navlinks > li {
 display:inline-block;
@@ -231,16 +235,17 @@ text-align: center;
 	text-transform: uppercase;
 letter-spacing: 0;
 font-weight: bolder;
-width:11rem;
-height:5rem;
-margin-left: 1.25rem;
-margin-top: 1rem;
-padding:1.5rem 1rem 0rem 1rem;
-font-size: 18.6px;
+width: 32%;
+margin-left: 0;
+margin-top: 3%;
+padding: 5% .1% 5% .1%;
+font-size: .68rem;
+font-size: 3.1vw;
 background-color: orange;
 border:black 2px solid;
 border-radius: 10px;
 vertical-align: middle;
+overflow: hidden;
 }
 
 .navigation-header a {
@@ -251,4 +256,92 @@ vertical-align: middle;
 .navigation-header a:hover {
 	color:blue;
 }
+/*Introduction Section*/
+.introduction {
+	background-image:url(../img/using-iphone-6-on-business-meeting-picjumbo-com.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:60rem;
+	margin-left: 15rem;
+	text-align: center;
 }
+.introduction .content {
+	padding-top:12.5rem;
+	color:#EDF1F2;
+	font-weight: bold;
+}
+.introduction h1 {
+	text-shadow:
+		-1px -1px 0 black,  
+		1px -1px 0 black,
+		-1px 1px 0 black,
+		1px 1px 0 black;
+}
+.introduction h3 {
+	margin-top: 8rem;
+	text-shadow:
+		-1px -1px 0 black,  
+		1px -1px 0 black,
+		-1px 1px 0 black,
+		1px 1px 0 black;
+}
+/*Overview Section*/
+.overview h1 {
+	color: #EDF1F2;
+	background: #3F3F3F;
+	border-radius: 1.5rem;
+	padding: 3rem 5rem 3.5rem 5rem;
+	margin: 0 auto 0 auto;
+	display: table;
+}
+.overview p {
+	margin-top: 5rem;
+	text-align:justify;
+	padding: 3rem;
+}
+/*Portfolio Section*/
+.portfolio {
+	height:100%
+}
+.portfolio .projectintro {
+	background:#EDF1F2;
+}
+.portfolio h1{
+	color: #EDF1F2;
+	background: #3F3F3F;
+	border-radius: 1.5rem;
+	padding: 3rem 5rem 3.5rem 5rem;
+	margin: 0 auto 0 auto;
+	display: table;
+}
+.portfolio h3 {
+	color: #EDF1F2;
+	background: #3F3F3F;
+	border-radius: 1.5rem;
+	padding: 1.5rem 2.5rem 1.75rem 2.5rem;
+	margin: 5rem auto 0 auto;
+	display: table;
+}
+.portfolio p {
+	margin-top: 5rem;
+	text-align:justify;
+	padding: 3rem;
+}
+.portfolio .content li{
+	height:60rem;
+	background:#EDF1F2;
+	list-style:none;
+	padding-left:0;
+	border-bottom: 1px solid black;
+	padding-bottom: 3rem;
+}
+/*footer section*/
+.footer {
+	padding-top:10rem;
+}
+.footer p {
+	padding: 3rem 10rem 3rem 10rem;
+	font-size: .5em;
+}
+}
+
